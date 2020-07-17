@@ -1,6 +1,11 @@
 body {
     background-color: #323232;
     text-align: center;
+    font-family: "Averia Gruesa Libre";  
+}
+
+h1 {
+    font-size: 3em;
 }
 
 .page-content {
