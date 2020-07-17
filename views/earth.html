@@ -1,7 +1,37 @@
 <%- include('partials/header.ejs') %>
 
-        <h1> Welcome to Earth! </h1>
-        <img src="/img/earth.jpg" alt="Planet Earth" />
+        <h1 class="jumbotron d-flex justify-content-center"> Welcome to Earth! </h1>
 
+        <div class="container">
+            <div class="row">
+                <img class="col-12" src="/img/earth.jpg" alt="Planet Earth" />
+            </div>
+            <br><br>
+            <div class="row jumbotron page-content">
+                <h2 class="col-3"> About Earth </h2> <br>
+                <div class="col-3">
+                    <h4>Numbers:</h4>
+                    <ul>
+                        <li>One Day: 23.9 hours</li>
+                        <li>One Year: 365.25 days</li>
+                        <li>High Surface Temp: 130 F</l>
+                        <li>Low Surface Temp: -120 F</l>
+                        <li>Radius: 3,959 miles</li>
+                    </ul>
+                </div>
+                <div class="col-6">
+                    <h4>Facts:</h4>
+                    <ul>
+                        <li>70 percent of the Earth's surface is covered in water.</li>
+                        <li>It has an iron and nickel core.</li>
+                        <li>The Earth's atmosphere is so powerful that it can burn up 
+                                almost any meteoroid before it can collide with the surface
+                                of the earth.</li>
+                        <li>The Earth's atmosphere also protects humans from the intense 
+                                radiation from the sun. </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
             
 <%- include('partials/footer.ejs') %>

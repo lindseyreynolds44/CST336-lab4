@@ -1,4 +1,8 @@
 body {
-    background-color: #CBE2F6;
+    background-color: #323232;
     text-align: center;
+}
+
+.page-content {
+    text-align: left;
 }

@@ -1,7 +1,36 @@
 <%- include('partials/header.ejs') %>
 
-        <h1> Welcome to Mercury! </h1>
-        <img src="/img/mercury.jpg" alt="Planet Mercury" />
+        <h1 class="jumbotron d-flex justify-content-center"> Welcome to Mercury! </h1>
+
+        <div class="container">
+            <div class="row">
+                <img class="col-12" src="/img/mercury.jpg" alt="Planet Mercury" />
+            </div>
+            <br>
+            <hr>
+            <div class="row jumbotron page-content">
+                <h2 class="col-3"> About Mercury </h2> <br>
+                <div class="col-3">
+                    <h4>Numbers:</h4>
+                    <ul>
+                        <li>One Day: 176 Earth days</li>
+                        <li>One Year: 88 Earth days</li>
+                        <li>High Surface Temp: 840 F</li>
+                        <li>Low Surface Temp: -275 F</li>
+                        <li>Radius: 1,516 miles</li>
+                    </ul>
+                </div>
+                <div class="col-6">
+                    <h4>Facts:</h4>
+                    <ul>
+                        <li>Ice has been found on the north and south poles</li>
+                        <li>Mercury is the smallest of all the planets in our solar system and 
+                                is continuously shrinking.</li>
+                        <li>Mercury has a magnetic field and and "iron core"</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
 
             
 <%- include('partials/footer.ejs') %>

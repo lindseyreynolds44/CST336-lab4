@@ -1,11 +1,45 @@
 <%- include('partials/header.ejs') %>
 
-        <h1> Welcome to the Solar System Site! </h1>
-        <p>Click on a planet to know more about it:</p>
-            
-            <a href="/mercury">Mercury</a> <br>
-            <a href="/venus">Venus</a> <br>
-            <a href="/earth">Earth</a> <br>
-            <img src="/img/solar_system.jpg" alt="The Solar System" />
+        <h1 class="jumbotron d-flex justify-content-center"> Welcome to the Solar System Site! </h1>
+
+        <div class="container">
+            <div class="row">
+                <img class="col-12" src="/img/solar_system.jpg" alt="The Solar System" />
+            </div>
+            <br>
+            <hr>
+            <div class="row jumbotron page-content">
+                <h2 class="col-3"> Our Solar System </h2> <br>
+                <div class="col-3">
+                    <h4>Planets:</h4>
+                    <ul>
+                        <li>Mercury</li>
+                        <li>Venus</li>
+                        <li>Earth</li>
+                        <li>Mars</li>
+                        <li>Jupiter</li>
+                        <li>Saturn</li>
+                        <li>Uranus</li>
+                        <li>Neptune</li>
+                    </ul>
+                </div>
+                <div class="col-3">
+                    <h4>Dwarf Planets:</h4>
+                    <ul>
+                        <li>Pluto</li>
+                        <li>Ceres</li>
+                        <li>Makemake</li>
+                        <li>Haumea</li>
+                        <li>Eris</li>
+                    </ul>
+                </div>
+                <div class="col-3">
+                    <h4>Hypothetical:</h4>
+                    <ul>
+                        <li>Planet X</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
         
 <%- include('partials/footer.ejs') %>

@@ -1,7 +1,35 @@
 <%- include('partials/header.ejs') %>
 
-        <h1> Welcome to Venus! </h1>
-        <img src="/img/venus.png" alt="Planet Venus" />
+        <h1 class="jumbotron d-flex justify-content-center"> Welcome to Venus! </h1>
 
+        <div class="container">
+            <div class="row">
+                <img class="col-12" src="/img/venus.png" alt="Planet Venus" />
+            </div>
+            <br>
+            <hr>
+            <div class="row jumbotron page-content">
+                <h2 class="col-3"> About Venus </h2> <br>
+                <div class="col-3">
+                    <h4>Numbers:</h4>
+                    <ul>
+                        <li>One Day: 243 Earth days</li>
+                        <li>One Year: 225 Earth days</li>
+                        <li>High Surface Temp: 880 F</l>
+                        <li>Radius: 3,760 miles</li>
+                    </ul>
+                </div>
+                <div class="col-6">
+                    <h4>Facts:</h4>
+                    <ul>
+                        <li>Venus does not experience seasons, like most planets, because its axial tilt is
+                                only 3 degrees. </li>
+                        <li>It rotates east to west instead of west to east like all other planets in our
+                                solar system, besides Uranus. </li>
+                        <li>It has an iron core, like Mercury and Earth, which causes volcanoes</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
             
 <%- include('partials/footer.ejs') %>
